@@ -3,9 +3,9 @@ pubilc class Hcf
 {
 public static void main(String args[])
 {
-int a, b, x, y, t, hcf, lcm;
+int a, b, x, y, t, hcf;
 	        Scanner scan = new Scanner(System.in);
-			  System.out.println("Enter Two Number : ");
+	      System.out.println("Enter Two Number : ");
 	        x = scan.nextInt();
 	        y = scan.nextInt();
 			
@@ -19,10 +19,8 @@ int a, b, x, y, t, hcf, lcm;
 	    	  a=t;
 	      }
 	      hcf=a;
-	      lcm=x*y/hcf;
 	      
 	        System.out.println("HCF = " +hcf);
-	        System.out.print("LCM = " +lcm);
 }
 }
 	        
