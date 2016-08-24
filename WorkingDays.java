@@ -9,10 +9,10 @@ String op;
 switch(s)
 {
 case "Sunday":
-op="Holiday";
+op="false";
 break;
 default:
-op="Working Day";
+op="True";
 }
 System.out.print(op);
 }
