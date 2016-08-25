@@ -1,4 +1,4 @@
-package com.example.santhoshkumar.myfirstapp;
+package com.example.santhoshkumar.calculator;
 
 import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
