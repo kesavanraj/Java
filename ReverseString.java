@@ -14,7 +14,7 @@ char c=rev.charAt(i);
 if(rev.contains("a" || "e" || "i" || "o" || "u" || "A" || "E" || "I" || "O" || "U")
 {
 String o=Integer.valueOf(c);
-o.reverse(c,""");
+o.reverse(c,"");
 }
 else
 {
